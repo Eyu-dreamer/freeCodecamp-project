@@ -1,0 +1,271 @@
+/* CSS for header section */
+
+:root {
+    --main-white: #f0f0f0;
+    --main-red: #be3144;
+    --main-blue: #45567d;
+    --main-gray: #303841;
+    --main-border: 2px solid transparent;
+}
+
+body {
+    color: whitesmoke;
+    font-family: "poppins", sans-serif;
+}
+
+header {
+    border: var(--main-border);
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    margin-top: -10px;
+    margin-left: -10px;
+    background-color: var(--main-red);
+}
+
+#header-empty-div {
+    border: var(--main-border);
+    width: 60%;
+}
+
+header a {
+    border: var(--main-border);
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    text-decoration: none;
+    margin: 0px 20px;
+    font-size: 1.3rem;
+    font-weight: 900;
+    color: var(--main-white);
+}
+
+header nav {
+    border: var(--main-border);
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/* CSS for first #section-1 */
+
+#main-empty-div {
+    border: var(--main-border);
+    height: 10vh;
+    width: 100vw;
+}
+
+main {
+    margin-left: -10px;
+    margin-left: -10px;
+}
+
+#section-1-first-i {
+    color: var(--main-red);
+    border: 2px solid transparent;
+    position: relative;
+    top: -60px;
+    font-weight: lighter;
+}
+
+#section-1 {
+    margin-top: -20px;
+    border: var(--main-border);
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-gray);
+    margin-top: -10px;
+    margin-left: -2.5px;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+
+#section-1 h1 {
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+#section-1 p {
+    font-size: 2rem;
+    border: var(--main-border);
+    text-align: center;
+    font-weight: 900;
+}
+
+
+/* CSS styles for #section-2 */
+
+#section-2 {
+    border: 5px solid transparent;
+    /* Keeping distinct size for contrast */
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-blue);
+}
+
+#section-2-first-p {
+    margin-top: 10%;
+    font-size: 2rem;
+    font-weight: 800;
+    border: 2px solid transparent;
+    text-align: center;
+    border-bottom: 2px solid white;
+}
+
+
+/* css style for #section-2-first-p below 625px width */
+
+@media screen and (max-width: 625px) {
+    #section-2-first-p {
+        width: 70%;
+        margin-top: 10%;
+        font-size: 2rem;
+        font-weight: 800;
+        border: 2px solid transparent;
+        text-align: center;
+        border-bottom: 2px solid white;
+    }
+}
+
+#section-2 div {
+    border: var(--main-border);
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20%;
+}
+
+#section-2 a {
+    border: var(--main-border);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--main-white);
+}
+
+#section-2 figure {
+    border: var(--main-border);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+    height: 100%;
+}
+
+#section-2 figure img {
+    border: var(--main-border);
+    width: 100%;
+    height: 90%;
+}
+
+#section-2 figure figcaption {
+    border: var(--main-border);
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+    background-color: var(--main-gray);
+    content: var(--main-white);
+}
+
+#section-2 #showAll {
+    border: var(--main-border);
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    text-align: center;
+    margin: 16% auto;
+    background-color: var(--main-gray);
+    color: var(--main-white);
+}
+
+
+/* CSS for #section-3 */
+
+#section-3 {
+    border: 5px solid transparent;
+    /* Keeping distinct size for contrast */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-gray);
+    border-bottom: 4px solid #be3144;
+}
+
+#section-3 span {
+    border: var(--main-border);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+}
+
+#section-3 #first-div {
+    border: var(--main-border);
+}
+
+#section-3 #second-div {
+    border: var(--main-border);
+    text-align: center;
+}
+
+#first-div h1 {
+    border: var(--main-border);
+    font-size: 3rem;
+    text-align: center;
+}
+
+#first-div p {
+    border: var(--main-border);
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+#second-div a {
+    width: 200px;
+    height: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: whitesmoke;
+}
+
+
+/* CSS style for footer element */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    border: var(--main-border);
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2rem;
+    width: 100vw;
+    height: 15vh;
+    background-color: var(--main-gray);
+    margin-bottom: -19px;
+    margin-left: -10px;
+}
+
+footer p {
+    border: var(--main-border);
+}

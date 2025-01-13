@@ -14,6 +14,9 @@ body {
     --main-gray: #303841;
 }
 
+
+/*css media query for min-width of 731px */
+
 @media screen and (min-width: 731px) {
     header {
         border: 2px solid transparent;
@@ -23,6 +26,7 @@ body {
         position: fixed;
         background-color: #be3144;
         margin-top: -10px;
+        z-index: 2;
     }
     #header-empty-div {
         border: 2px solid transparent;
@@ -150,6 +154,7 @@ body {
         margin-top: 20%;
         background-color: var(--main-gray);
         color: var(--main-white);
+        font-size: 2rem;
     }
     #section-3 {
         border: 5px solid transparent;
@@ -214,6 +219,9 @@ body {
     }
 }
 
+
+/*Css media query for max-width: 731px*/
+
 @media screen and (max-width: 731px) {
     header {
         border: var(--main-border);
@@ -224,6 +232,7 @@ body {
         margin-top: -10px;
         margin-left: -10px;
         background-color: var(--main-red);
+        z-index: 2;
     }
     #header-empty-div {
         border: var(--main-border);
@@ -307,7 +316,7 @@ body {
         text-align: center;
         border-bottom: 2px solid white;
     }
-    /* css style for #section-2-first-p below 625px width */
+    /* css  for #section-2-first-p below 625px width*/
     @media screen and (max-width: 625px) {
         #section-2-first-p {
             width: 70%;
@@ -370,6 +379,7 @@ body {
         margin: 16% auto;
         background-color: var(--main-gray);
         color: var(--main-white);
+        font-size: 2rem;
     }
     /* CSS for #section-3 */
     #section-3 {
